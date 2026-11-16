@@ -2,7 +2,7 @@
    Precaches the app shell; Google Fonts are cached at runtime
    (stale-while-revalidate) so the page still works offline after
    the first visit. Bump CACHE when shipping a new version. */
-const CACHE = 'agt-typing-v5';
+const CACHE = 'agt-typing-v6';
 const PRECACHE = ['./', './index.html'];
 
 self.addEventListener('install', (event) => {
